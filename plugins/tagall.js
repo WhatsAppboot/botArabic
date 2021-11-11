@@ -113,7 +113,7 @@ else if (Config.WORKTYPE == 'public') {
 }));
 var stag_dsc = ''
 if (Config.LANG !== 'ML') stag_dsc = 'يرسل الرسالة إلى جميع الأعضاء في المجموعة🤖.'
-if (Config.LANG == 'ML') stag_dsc = 'ഗ്രൂപ്പിലെ എല്ലാ അംഗങ്ങൾക്കും മറുപടി സന്ദേശം അയയ്ക്കുന്നു.'
+if (Config.LANG == 'ML') stag_dsc = 'يرسل رسالة رد إلى جميع أعضاء المجموعة. '🗣️.'
 
 Asena.addCommand({pattern: 'bc$', fromMe: true, desc: stag_dsc }, (async (message, match) => {
     if (!message.reply_message) return await message.client.sendMessage(message.jid,SLang.NEED_REPLY, MessageType.text)
