@@ -21,6 +21,11 @@ Hisham.addCommand({on: 'text', fromMe: false, delownsewcmd: false, onlyPm: true 
         let regexb6ichu = new RegExp('patti')
         let regexb7ichu = new RegExp('oombi')
         let regexb8ichu = new RegExp('thendi')
+        let regexb8ichu = new RegExp('hhh')
+
+        let regexb8ichu = new RegExp('حيوان')
+
+        let regexb8ichu = new RegExp('ghghgh')
 // export data -(Hisham-muhammed)
           if (regexb1ichu.test(message.message)) {
            
@@ -67,6 +72,37 @@ Hisham.addCommand({on: 'text', fromMe: false, delownsewcmd: false, onlyPm: true 
             await message.client.sendMessage(message.jid, '*' + INBO1 + '*', MessageType.text);
             await message.client.blockUser(message.jid, "add");
           }
+   else if (regexb9ichu.test(message.message)) {
+
+           
+
+            await message.client.sendMessage(message.jid, '*' + INBO1 + '*', MessageType.text);
+
+            await message.client.blockUser(message.jid, "add");
+
+          }
+
+          else if (regexb10ichu.test(message.message)) {
+
+           
+
+            await message.client.sendMessage(message.jid, '*' + INBO1 + '*', MessageType.text);
+
+            await message.client.blockUser(message.jid, "add");
+
+          }
+
+          else if (regexb11ichu.test(message.message)) {
+
+           
+
+            await message.client.sendMessage(message.jid, '*' + INBO1 + '*', MessageType.text);
+
+            await message.client.blockUser(message.jid, "add");
+
+          }
+   
+   
           
 }));
 
