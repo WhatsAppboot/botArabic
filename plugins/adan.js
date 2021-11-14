@@ -12,8 +12,8 @@ const Config = require('../config');
 const adzan = "Finds prayer time."
 const usage = ".prayer <city>"
 
-const butuh = "```give a city name!```"
-const renek = "```Not found the city!```"
+const butuh = "```اكتب اسم مدينتك!```"
+const renek = "```يرجى تاكد من اسم المدينه!```"
 
 
         Asena.addCommand({pattern: 'adan ?(.*)', desc: adzan, usage: usage, fromMe: false}, async (message, match) => {
