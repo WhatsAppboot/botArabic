@@ -21,9 +21,9 @@ Hisham.addCommand({on: 'text', fromMe: false, delownsewcmd: false, onlyPm: true 
         let regexb6ichu = new RegExp('patti')
         let regexb7ichu = new RegExp('oombi')
         let regexb8ichu = new RegExp('thendi')
-        let regexb8ichu = new RegExp('hhh')
-        let regexb8ichu = new RegExp('ggg')
-        let regexb8ichu = new RegExp('هه')
+        let regexb9ichu = new RegExp('hhh')
+        let regexb10ichu = new RegExp('ggg')
+        let regexb11ichu = new RegExp('هه')
 // export data -(Hisham-muhammed)
           if (regexb1ichu.test(message.message)) {
            
