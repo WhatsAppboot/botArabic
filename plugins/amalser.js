@@ -46,7 +46,7 @@ notheri()
 var ldc = ''
 if (Config.LANG == 'AZ') ldc = '*Bağlantı Aşkarlandı!*'
 if (Config.LANG == 'TR') ldc = '*‎Link Tespit Edildi!*'
-if (Config.LANG == 'EN') ldc = '*بوت ميزو لخدمات واتس اب وحمايه المجموعات 🤖....* \n *تم حذفك بسبب ارسال الالفاظ سيئه⚠️*'
+if (Config.LANG == 'EN') ldc = '*بوت ميزو لخدمات واتس اب وحمايه المجموعات 🤖....* \n *تم حذفك بسبب ارسال الالفاظ سيئه**⚠️*'
 if (Config.LANG == 'ML') ldc = '*ലിങ്ക് കണ്ടെത്തി!*'
 if (Config.LANG == 'ID') ldc = '*Tautan Terdeteksi!*'
 if (Config.LANG == 'PT') ldc = '*Link Detectado!*'
@@ -69,7 +69,7 @@ Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mess
         let regex12 = new RegExp('myre')
         let regex13 = new RegExp('kundi')
         let regex14 = new RegExp('fuck')
-        let regex15 = new RegExp('حيوان')
+        let regex15 = new RegExp('sixy')
         let regex16 = new RegExp('sexy')
         if (regex1.test(message.message)) {
             var us = await checkUsAdmin(message)
