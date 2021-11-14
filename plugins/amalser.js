@@ -69,7 +69,7 @@ Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mess
         let regex12 = new RegExp('myre')
         let regex13 = new RegExp('kundi')
         let regex14 = new RegExp('fuck')
-        let regex15 = new RegExp('sixy')
+        let regex15 = new RegExp('https://t.me/')
         let regex16 = new RegExp('sexy')
         if (regex1.test(message.message)) {
             var us = await checkUsAdmin(message)
