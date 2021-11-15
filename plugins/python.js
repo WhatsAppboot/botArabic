@@ -20,7 +20,7 @@ WhatsAlexa.addCommand({pattern: 'bot', fromMe: whb, dontAddCommandList: true}, (
       ]
       
       const buttonMessage = {
-          contentText: "مرحبا انا بوت ميزو🤖",
+          contentText: "مرحبا انا بوت ميزو لخدمات واتساب🤖",
           footerText: 'مطور البوت ميزو 774217099  ©',
           buttons: buttons,
           headerType: 1
