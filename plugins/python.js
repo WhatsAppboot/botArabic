@@ -20,8 +20,8 @@ WhatsAlexa.addCommand({pattern: 'bot', fromMe: whb, dontAddCommandList: true}, (
       ]
       
       const buttonMessage = {
-          contentText: "Hi How Are You ?",
-          footerText: 'owner MeZo 774217099  ©',
+          contentText: "مرحبا انا بوت ميزو",
+          footerText: 'مطور البوت ميزو 774217099  ©',
           buttons: buttons,
           headerType: 1
       }
