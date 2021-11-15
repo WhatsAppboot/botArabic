@@ -4,7 +4,7 @@ const Config = require('../config');
 const fs = require('fs');
 
 const WAME_DESC = "Get a link to the user chat."
-const WAME = "```رابط رقمك جاهز يعسل 👇```@{}: https://wa.me/{}"
+const WAME = "```رابط رقمك جاهز يعسل 👇```@{}:\n\n https://wa.me/{}"
 const NEED_UWONG = "*اعطني مستخدم في مجموعه!*"
     
     Asena.addCommand({pattern: 'wame ?(.*)', fromMe: false, desc: WAME_DESC}, (async (message, match) => {    
