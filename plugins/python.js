@@ -30,24 +30,5 @@ WhatsAlexa.addCommand({pattern: 'bot', fromMe: whb, dontAddCommandList: true}, (
       await message.client.sendMessage(message.jid, buttonMessage, MessageType.buttonsMessage)
 
 }
-WhatsAlexa.addCommand({pattern: 'mezo', fromMe: whb, dontAddCommandList: true}, (async (message, match) => {
-// send a buttons message!
-    const buttons = [
-        {buttonId: 'id1', buttonText: {displayText: 'هل تحب ميزو ♥️'}, type: 1},
-        {buttonId: 'id2', buttonText: {displayText: 'اعشقك ♥️'}, type: 1},
-        {buttonId: 'id3', buttonText: {displayText: 'اكرهك ☹️'}, type: 1},
-        {buttonId: 'id4', buttonText: {displayText: 'لاشيئ🙈'}, type: 1}
-      ]
-      
-      const buttonMessage = {
-          contentText: "مرحبا انا بوت ميزو لخدمات واتساب🤖",
-          footerText: 'مطور البوت ميزو 774217099  ©',
-          buttons: buttons,
-          headerType: 1
-      }
-      
-      await message.client.sendMessage(message.jid, buttonMessage, MessageType.buttonsMessage)
-}
-
 ));
 
