@@ -246,8 +246,8 @@ if (conf.LANG == 'EN') {
     fulleva_dsc = 'Activates full functional Pinky features. Turn your account into a ai chatbot!'
     already_on = 'Pinky artificial intelligence is already fully functional.'
     already_off = 'Pinky artificial intelligence is currently running semi-functional.'
-    succ_on = 'Pinky Opened Fully Functionally! Please wait a bit! ✅'
-    succ_off = 'Pinky Set to Semi-Functional! Please wait a bit! ☑️'
+    succ_on = 'تم تفعيل ميزه ذكاء الإصطناعي و فتح  دردشة معا البوت يرجى الانتظار قليلاً 🤖⚙️! ✅'
+    succ_off = 'تم اغلاق ميزه الدردشه معا البوت شكراً لكم! ☑️'
 }
 if (conf.LANG == 'ML') {
     fulleva_dsc = 'പൂർണ്ണമായും പ്രവർത്തനക്ഷമമായ pinky സവിശേഷതകൾ സജീവമാക്കുന്നു. നിങ്ങളുടെ അക്കൗണ്ട് ഒരു ചാറ്റ്ബോട്ടാക്കി മാറ്റുക!'
