@@ -27,7 +27,7 @@
             "NEED_PLUGIN": "```Please enter a Plugin! Example: .plugin __test```",
             "NOT_FOUND_PLUGIN": "```Maybe you have installed such a plugin, or maybe not. But it sure isn't right now.```",
             "DELETED": "*✅ Module successfully deleted!*",
-            "WARN": "Get plugins only from t.me/remasterplugin channel."
+            "WARN": "Get plugins only from t.me/remasplugin channel."
         },
         "admin": {
             "BAN_DESC": "*حظر شخص ما في المجموعة.  الرد على رسالة أو وضع علامة على شخص لاستخدام الأمر*",
@@ -283,7 +283,7 @@
             "APK_MOD": "It sends some special mod apks",
             "CARBON_DESC": "It sends carbon picture",
             "TEMP": "Temperature",
-            "BOT_DESC": "Chat with Pinky.\n Use .molu <message>",
+            "BOT_DESC": "للتحدث و تفعيل دردشة معا البوت .\n ارسل chatbot ",
             "BOT": ":",
             "DEVICE": "It shows the details of device",
             "DESC": "Description",
